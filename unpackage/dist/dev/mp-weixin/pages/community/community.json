@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "社区",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-icons": "../../uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "uni-easyinput": "../../uni_modules/uni-easyinput/components/uni-easyinput/uni-easyinput",
+    "global-layout": "../../components/GlobalLayout/GlobalLayout"
+  }
+}

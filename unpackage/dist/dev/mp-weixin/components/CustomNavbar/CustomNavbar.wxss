@@ -1,0 +1,26 @@
+/* 水平间距 */
+/* 水平间距 */
+.navbar-container.data-v-ff1d8d81 {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ebebeb;
+}
+.navbar-content.data-v-ff1d8d81 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 44px;
+  /* 导航栏标准高度 */
+  padding: 0 15px;
+}
+.nav-left.data-v-ff1d8d81, .nav-right.data-v-ff1d8d81 {
+  width: 40px;
+  display: flex;
+  align-items: center;
+}
+.nav-right.data-v-ff1d8d81 {
+  justify-content: flex-end;
+}
+.nav-center.data-v-ff1d8d81 {
+  font-size: 16px;
+  font-weight: bold;
+}

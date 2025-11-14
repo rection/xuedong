@@ -1,0 +1,102 @@
+/* 水平间距 */
+/* 水平间距 */
+/* ⬇️ [核心修改] 
+  我们重写了 header 的样式
+*/
+.community-header-card.data-v-fe7103a0 {
+  background-color: #ffffff;
+  padding: 15px;
+  border-bottom: 1px solid #e0e0e0;
+}
+.header-top.data-v-fe7103a0 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-info.data-v-fe7103a0 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.header-info .avatar.data-v-fe7103a0 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #0079D3;
+}
+.header-info .title.data-v-fe7103a0 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.subscribe-button.data-v-fe7103a0 {
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 0 16px;
+  height: 32px;
+  line-height: 32px;
+  margin: 0;
+  /* 清除默认 margin */
+  /* 默认“加入”样式 */
+  background-color: #0079D3;
+  color: #fff;
+  /* “已订阅”的样式 */
+}
+.subscribe-button.subscribed.data-v-fe7103a0 {
+  background-color: #f0f0f0;
+  color: #333;
+  border: 1px solid #ccc;
+}
+.header-stats.data-v-fe7103a0, .header-description.data-v-fe7103a0 {
+  font-size: 13px;
+  color: #666;
+  margin-top: 10px;
+}
+
+/* ⬇️ [新] 
+  筛选条的样式
+*/
+.filter-bar.data-v-fe7103a0 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  background-color: #ffffff;
+  border-bottom: 5px solid #f0f2f5;
+}
+.filter-bar .filter-button.data-v-fe7103a0 {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 14px;
+  color: #666;
+}
+.filter-bar .view-mode-button.data-v-fe7103a0 {
+  color: #666;
+}
+
+/* ⬇️ (不变) 
+  Feed 列表的样式 (和 index.vue 保持一致)
+*/
+.scroll-view-container.data-v-fe7103a0 {
+  height: 100vh;
+  background-color: #DAE0E6;
+}
+.feed-list.data-v-fe7103a0 {
+  padding-top: 8px;
+}
+.list-item.data-v-fe7103a0 {
+  margin: 0 8px 8px 8px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+.no-posts.data-v-fe7103a0 {
+  padding: 40px;
+  text-align: center;
+  color: #888;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}

@@ -1,0 +1,1 @@
+<global-layout wx:if="{{a}}" class="data-v-0a633310" u-s="{{['d']}}" u-i="0a633310-0" bind:__l="__l" u-p="{{a}}"><view class="index-page-content data-v-0a633310"><text class="data-v-0a633310">这是【主页】独有的内容 Feed 流</text></view></global-layout>

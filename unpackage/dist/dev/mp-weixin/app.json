@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/community/community",
+    "pages/create/create",
+    "pages/chat/chat",
+    "pages/sports/sports",
+    "pages/profile/profile",
+    "pages/community-select/community-select",
+    "pages/community-create/community-create",
+    "pages/community-detail/community-detail",
+    "pages/post-detail/post-detail"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#000000",
+    "borderStyle": "white",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "static/tabs/home.png",
+        "selectedIconPath": "static/tabs/home.png"
+      },
+      {
+        "pagePath": "pages/community/community",
+        "text": "社区",
+        "iconPath": "static/tabs/community.png",
+        "selectedIconPath": "static/tabs/community.png"
+      },
+      {
+        "pagePath": "pages/create/create",
+        "text": "创建",
+        "iconPath": "static/tabs/create.png",
+        "selectedIconPath": "static/tabs/create.png"
+      },
+      {
+        "pagePath": "pages/chat/chat",
+        "text": "聊天",
+        "iconPath": "static/tabs/chat1.png",
+        "selectedIconPath": "static/tabs/chat1.png"
+      },
+      {
+        "pagePath": "pages/sports/sports",
+        "text": "运动",
+        "iconPath": "static/tabs/sports.png",
+        "selectedIconPath": "static/tabs/sports.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

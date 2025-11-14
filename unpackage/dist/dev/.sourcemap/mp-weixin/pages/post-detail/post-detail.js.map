@@ -1,0 +1,1 @@
+{"version":3,"file":"post-detail.js","sources":["D:/HBuilderX/plugins/uniapp-cli-vite/uniPage:/cGFnZXMvcG9zdC1kZXRhaWwvcG9zdC1kZXRhaWwudnVl"],"sourcesContent":["import MiniProgramPage from 'C:/Users/ffx/OneDrive/Desktop/项目源码/xuedong1/pages/post-detail/post-detail.vue'\nwx.createPage(MiniProgramPage)"],"names":[],"mappings":";;;;;;;AACA,GAAG,WAAW,eAAe;"}

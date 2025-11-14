@@ -1,0 +1,101 @@
+/* 水平间距 */
+/* 水平间距 */
+/* 让 <GlobalLayout> 的插槽 (slot) 
+  内部可以实现复杂布局
+*/
+.page-container.data-v-a6ef5318 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  /* 占满 GlobalLayout 的剩余高度 */
+  background-color: #f0f2f5;
+  /* 浅灰色背景 */
+}
+
+/* 需求 1 & 2: 创建社区卡片 */
+.create-community-card.data-v-a6ef5318 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  margin: 15px;
+  /* 在卡片周围留出空间 */
+  padding: 20px;
+  border-radius: 12px;
+  /* ⬅️ 圆角 */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  /* ⬅️ 阴影 */
+}
+.create-community-card .create-info.data-v-a6ef5318 {
+  display: flex;
+  flex-direction: column;
+}
+.create-community-card .create-info .create-title.data-v-a6ef5318 {
+  font-size: 16px;
+  font-weight: bold;
+}
+.create-community-card .create-info .create-subtitle.data-v-a6ef5318 {
+  font-size: 13px;
+  color: #666;
+  margin-top: 4px;
+}
+
+/* 需求 3: 搜索框 */
+.search-bar-container.data-v-a6ef5318 {
+  padding: 0 15px;
+  margin-bottom: 10px;
+  /* 使用 :deep 穿透修改 uni-easyinput 
+    内部 input 的背景色
+  */
+}
+.search-bar-container.data-v-a6ef5318 .uni-easyinput__content {
+  background-color: #ffffff !important;
+}
+
+/* 需求 4: 社区列表 (可滚动) */
+.community-list-scroll.data-v-a6ef5318 {
+  /* 占据所有剩余空间 */
+  flex: 1;
+  height: 0;
+  /* (flex 布局的技巧) */
+  background-color: #ffffff;
+}
+.list-title.data-v-a6ef5318 {
+  padding: 10px 15px;
+  font-size: 14px;
+  color: #888;
+  background-color: #f0f2f5;
+  border-bottom: 1px solid #e0e0e0;
+}
+.community-item.data-v-a6ef5318 {
+  display: flex;
+  align-items: center;
+  padding: 12px 15px;
+  border-bottom: 1px solid #f0f0f0;
+  background-color: #fff;
+}
+.community-item .avatar.data-v-a6ef5318 {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background-color: #0079D3;
+}
+.community-item .info.data-v-a6ef5318 {
+  display: flex;
+  flex-direction: column;
+}
+.community-item .info .name.data-v-a6ef5318 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.community-item .info .creator.data-v-a6ef5318 {
+  font-size: 12px;
+  color: #666;
+}
+.no-results.data-v-a6ef5318 {
+  text-align: center;
+  padding: 30px;
+  color: #999;
+  font-style: italic;
+}

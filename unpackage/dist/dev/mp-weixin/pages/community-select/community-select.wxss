@@ -1,0 +1,21 @@
+/* 水平间距 */
+/* 水平间距 */
+.community-item.data-v-15cacc5b {
+  display: flex;
+  align-items: center;
+  padding: 12px 15px;
+  border-bottom: 1px solid #f0f0f0;
+}
+.community-item .avatar.data-v-15cacc5b {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background-color: #eee;
+}
+.community-item .default-avatar.data-v-15cacc5b {
+  background-color: #0079D3;
+}
+.community-item .home-avatar.data-v-15cacc5b {
+  background-color: #c0c0c0;
+}

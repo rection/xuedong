@@ -1,0 +1,124 @@
+{
+	"pages": [ // 这里是您的页面列表，先放一个主页
+	    {
+	      "path": "pages/index/index",
+	      "style": {
+	        "navigationBarTitleText": "主页",
+			"navigationStyle": "custom",
+			"enablePullDownRefresh": true
+	      }
+	    },
+	    {
+	      "path": "pages/community/community",
+	      "style": {
+	        "navigationBarTitleText": "社区",
+			"navigationStyle": "custom"
+	      }
+	    },
+	    {
+	      "path": "pages/create/create",
+	      "style": {
+	        "navigationBarTitleText": "创建",
+			"navigationStyle": "custom"
+	      }
+	    },
+	    {
+	      "path": "pages/chat/chat",
+	      "style": {
+	        "navigationBarTitleText": "聊天",
+			"navigationStyle": "custom"
+	      }
+	    },
+	    {
+	      "path": "pages/sports/sports", // 您的“运动”页面
+	      "style": {
+	        "navigationBarTitleText": "运动",
+			"navigationStyle": "custom"
+	      }
+	    },
+		{
+			"path": "pages/profile/profile",
+			"style": {
+				"navigationBarTitleText": "编辑个人资料"
+			}
+		},
+		{
+			"path": "pages/community-select/community-select",
+			"style": {
+				"navigationBarTitleText": "选择一个社区"
+			}
+		},
+		{
+		      "path": "pages/community-create/community-create",
+		      "style": {
+		        "navigationBarTitleText": "创建社区"
+		      }
+		    },
+		{	
+			"path": "pages/community-detail/community-detail",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+				
+			},
+		{
+			"path": "pages/post-detail/post-detail",
+			"style": {
+				"navigationBarTitleText": "帖子详情"
+			}
+		}
+	  ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+	    "color": "#999999",
+	    "selectedColor": "#000000", // Reddit 风格，选中时为黑色
+	    "borderStyle": "white",
+	    "backgroundColor": "#FFFFFF",
+	    "list": [
+	      {
+	        "pagePath": "pages/index/index",
+	        "text": "主页",
+	        "iconPath": "static/tabs/home.png",
+	        "selectedIconPath": "static/tabs/home.png"
+	      },
+	      {
+	        "pagePath": "pages/community/community",
+	        "text": "社区",
+	        "iconPath": "static/tabs/community.png",
+	        "selectedIconPath": "static/tabs/community.png"
+	      },
+	      {
+	        "pagePath": "pages/create/create",
+	        "text": "创建",
+	        "iconPath": "static/tabs/create.png",
+	        "selectedIconPath": "static/tabs/create.png"
+	      },
+	      {
+	        "pagePath": "pages/chat/chat",
+	        "text": "聊天",
+	        "iconPath": "static/tabs/chat1.png",
+	        "selectedIconPath": "static/tabs/chat1.png"
+	      },
+	      {
+	        "pagePath": "pages/sports/sports", // 关键：这里改成您的运动页面
+	        "text": "运动", // 关键：文本改成“运动”
+	        "iconPath": "static/tabs/sports.png",
+	        "selectedIconPath": "static/tabs/sports.png"
+	      }
+	    ]
+	  },
+	  "easycom": {
+	      "autoscan": true,
+	      "custom": {
+	        "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+	      }
+	    }
+}

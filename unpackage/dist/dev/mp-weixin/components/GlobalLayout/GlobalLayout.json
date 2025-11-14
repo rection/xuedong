@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "custom-navbar": "../CustomNavbar/CustomNavbar",
+    "left-menu": "../LeftMenu/LeftMenu",
+    "uni-drawer": "../../uni_modules/uni-drawer/components/uni-drawer/uni-drawer",
+    "right-profile": "../RightProfile/RightProfile"
+  }
+}

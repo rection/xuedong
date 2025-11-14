@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "主页",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "post-card": "../../components/PostCard/PostCard",
+    "global-layout": "../../components/GlobalLayout/GlobalLayout"
+  }
+}

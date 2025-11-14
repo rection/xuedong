@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "聊天",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "global-layout": "../../components/GlobalLayout/GlobalLayout"
+  }
+}

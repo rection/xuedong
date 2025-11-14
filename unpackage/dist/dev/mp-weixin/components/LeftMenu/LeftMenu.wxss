@@ -1,0 +1,96 @@
+/* 水平间距 */
+/* 水平间距 */
+.left-menu-container.data-v-242799f8 {
+  height: 100%;
+}
+
+/* ⬇️ [核心修改] 每日打卡 (Req 3) 
+  我们重写了这里的全部样式
+*/
+.daily-checkin.data-v-242799f8 {
+  display: flex;
+  flex-direction: row;
+  /* 水平布局 */
+  justify-content: space-between;
+  /* 左右推开 */
+  align-items: center;
+  /* 垂直居中 */
+  background-color: #ffffff;
+  margin: 15px;
+  /* 在卡片周围留出空间 */
+  padding: 20px;
+  border-radius: 12px;
+  /* ⬅️ 您要的圆角 */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  /* ⬅️ 您要的阴影 */
+}
+
+/* 左侧 (Req 3) */
+.checkin-left.data-v-242799f8 {
+  display: flex;
+  flex-direction: column;
+}
+.checkin-left .checkin-label.data-v-242799f8 {
+  font-size: 13px;
+  color: #666;
+}
+.checkin-left .checkin-days.data-v-242799f8 {
+  display: flex;
+  align-items: baseline;
+  /* "10" 和 "天" 对齐 */
+}
+.checkin-left .checkin-days .days-number.data-v-242799f8 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #0079D3;
+}
+.checkin-left .checkin-days .days-label.data-v-242799f8 {
+  font-size: 14px;
+  color: #0079D3;
+  margin-left: 4px;
+}
+
+/* 右侧 (Req 3) */
+.checkin-button.data-v-242799f8 {
+  background-color: #0079D3;
+  color: white;
+  border-radius: 20px;
+  /* 胶囊按钮 */
+  font-size: 14px;
+  margin: 0;
+  /* 清除 H5 默认 margin */
+  padding: 0 18px;
+}
+.checkin-button[disabled].data-v-242799f8 {
+  background-color: #a0a0a0;
+}
+
+/* ⬇️ (不变) 菜单通用样式 
+*/
+.menu-section.data-v-242799f8 {
+  padding: 10px 20px;
+}
+.menu-title.data-v-242799f8 {
+  font-size: 12px;
+  color: #888;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.menu-item.data-v-242799f8, .menu-item-placeholder.data-v-242799f8 {
+  font-size: 16px;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+.menu-item .avatar.data-v-242799f8, .menu-item-placeholder .avatar.data-v-242799f8 {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background-color: #0079D3;
+}
+.menu-item-placeholder.data-v-242799f8 {
+  color: #999;
+  font-style: italic;
+}
