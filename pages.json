@@ -66,6 +66,12 @@
 			"style": {
 				"navigationBarTitleText": "帖子详情"
 			}
+		},
+		{
+		  "path": "pages/sports/todo-editor/todo-editor",
+		  "style": {
+		    "navigationBarTitleText": "添加待办事项"
+		  }
 		}
 	  ],
 	"globalStyle": {
